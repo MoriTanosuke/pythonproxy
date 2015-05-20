@@ -7,4 +7,5 @@ urlpatterns = patterns('',
     # url(r'^$', 'pythonproxy.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
     url(r'^$', 'pythonproxy.views.home', name='home'),
+    url(r'^$', 'pythonproxy.views.about', name='about'),
 )
